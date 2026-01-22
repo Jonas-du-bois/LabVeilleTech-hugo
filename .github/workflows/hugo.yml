@@ -67,7 +67,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --environment production
+            --baseURL "https://jonas-du-bois.github.io/LabVeilleTech-hugo/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
