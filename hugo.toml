@@ -2,6 +2,8 @@ baseURL = '/'
 languageCode = 'fr-fr'
 title = 'LabVeilleTech-JonasDuBois'
 theme = 'hugo-minimal-black'
+canonifyURLs = true
+relativeURLs = false
 
 # Enable search index generation and web app manifest
 [outputs]
