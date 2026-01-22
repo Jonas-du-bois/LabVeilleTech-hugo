@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on LabVeilleTech-JonasDuBois</title>
+    <link>http://localhost:1313/Jonas-du-bois/LabVeilleTech-hugo/posts/</link>
+    <description>Recent content in Posts on LabVeilleTech-JonasDuBois</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 22 Jan 2026 16:08:36 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/Jonas-du-bois/LabVeilleTech-hugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test article</title>
+      <link>http://localhost:1313/Jonas-du-bois/LabVeilleTech-hugo/posts/mon-premier-article/</link>
+      <pubDate>Thu, 22 Jan 2026 16:08:36 +0100</pubDate>
+      <guid>http://localhost:1313/Jonas-du-bois/LabVeilleTech-hugo/posts/mon-premier-article/</guid>
+      <description>&lt;p&gt;Ceci est mon premier article.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
