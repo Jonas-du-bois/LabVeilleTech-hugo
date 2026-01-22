@@ -2,17 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/</loc>
-    <lastmod>2026-01-22T16:08:36+01:00</lastmod>
+    <loc>//localhost:1313/about/</loc>
+    <lastmod>2026-01-22T17:00:00+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2026-01-22T16:08:36+01:00</lastmod>
+    <lastmod>2026-01-22T17:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/mon-premier-article/</loc>
-    <lastmod>2026-01-22T16:08:36+01:00</lastmod>
+    <loc>//localhost:1313/blog/</loc>
+    <lastmod>2026-01-20T16:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>//localhost:1313/tags/frontend/</loc>
+    <lastmod>2026-01-20T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/next.js/</loc>
+    <lastmod>2026-01-20T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/performance/</loc>
+    <lastmod>2026-01-20T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/react/</loc>
+    <lastmod>2026-01-20T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/server-components/</loc>
+    <lastmod>2026-01-20T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/react-server-components/</loc>
+    <lastmod>2026-01-20T16:00:00+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+    <lastmod>2026-01-20T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/api/</loc>
+    <lastmod>2026-01-19T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/architecture/</loc>
+    <lastmod>2026-01-19T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/backend/</loc>
+    <lastmod>2026-01-19T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/graphql/</loc>
+    <lastmod>2026-01-19T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/graphql-vs-rest/</loc>
+    <lastmod>2026-01-19T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/rest/</loc>
+    <lastmod>2026-01-19T11:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/technologie/</loc>
+    <lastmod>2026-01-18T14:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/webassembly/</loc>
+    <lastmod>2026-01-18T14:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/webassembly-futur-web/</loc>
+    <lastmod>2026-01-18T14:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/d%C3%A9veloppement/</loc>
+    <lastmod>2026-01-16T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/ma-veille-technologique/</loc>
+    <lastmod>2026-01-16T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/veille-technologique/</loc>
+    <lastmod>2026-01-16T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/greenit/</loc>
+    <lastmod>2026-01-15T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/ia/</loc>
+    <lastmod>2026-01-15T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/llm/</loc>
+    <lastmod>2026-01-15T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/moi-et-les-llm/</loc>
+    <lastmod>2026-01-15T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/productivit%C3%A9/</loc>
+    <lastmod>2026-01-15T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
   </url>
 </urlset>

@@ -1,0 +1,57 @@
+baseURL = '/'
+languageCode = 'fr-fr'
+title = 'Jonas Du Bois'
+theme = 'hugo-minimal-black'
+canonifyURLs = true
+relativeURLs = false
+
+# Enable search index generation and web app manifest
+[outputs]
+  home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
+  baseName = "manifest"
+  isPlainText = true
+  notAlternative = true
+
+# Menu Configuration
+[menu]
+  [[menu.main]]
+    name = "À Propos"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+[params]
+  brand = "Jonas Du Bois"
+  author = "Jonas Du Bois"
+  description = "Étudiant en ingénierie des médias passionné par le backend, le frontend et le technico-commercial"
+  location = "Yverdon, Suisse"
+  
+  # Social Links
+  github = "https://github.com/Jonas-du-bois"
+  linkedin = "https://www.linkedin.com/in/jonas-du-bois/"
+  
+  # Theme Configuration
+  [params.theme]
+    defaultTheme = "dark"
+  
+  # Home Page Configuration  
+  [params.home]
+    sections = ["hero", "posts"]
+    showLatestPosts = true
+    latestPostsLimit = 10
+    blogTitle = "Articles Récents"
+    blogIntro = "Découvrez mes réflexions sur le développement web, les nouvelles technologies et ma veille technologique"
+    
+  # Hero Configuration
+  [params.hero]
+    title = "Jonas Du Bois"
+    subtitle = "Étudiant en ingénierie des médias | Backend & Frontend"
+    description = "Passionné par le développement web et les technologies modernes. Futur technico-commercial."
+

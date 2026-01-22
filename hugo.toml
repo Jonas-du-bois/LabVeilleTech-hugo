@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'fr-fr'
-title = 'LabVeilleTech-JonasDuBois'
+title = 'Jonas Du Bois'
 theme = 'hugo-minimal-black'
 canonifyURLs = true
 relativeURLs = false
@@ -16,20 +16,156 @@ relativeURLs = false
   isPlainText = true
   notAlternative = true
 
+# Menu Configuration
+[menu]
+  [[menu.main]]
+    name = "À Propos"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
 [params]
-  brand = "LabVeilleTech"
+  brand = "Jonas Du Bois"
   author = "Jonas Du Bois"
-  description = "Site pour le cours de LabVeilleTech"
+  description = "Qu'il s'agisse d'ingénierie des médias à l'HEIG-VD ou de stratégie politique à la FSPJ, mon moteur reste le même : créer du lien et de l'impact."
+  
+  # Favicon - Place your favicon files in /static/ directory
+  favicon = "icons/favicon.svg"
+  appleTouchIcon = "apple-touch-icon.png"
+  
+  # Web App Manifest Configuration (PWA support)
+  [params.manifest]
+    themeColor = "#a855f7"
+    backgroundColor = "#000000"
+    categories = ["blog", "portfolio", "developer"]
   
   # Theme Configuration
   [params.theme]
     defaultTheme = "dark"
   
+  # Icon Libraries - IMPORTANT pour afficher les icônes
+  [params.icons]
+    useFontAwesome = true
+    useDevicon = true
+  
   # Home Page Configuration  
   [params.home]
-    sections = ["hero", "posts"]
+    sections = ["hero", "now", "tech-marquee", "posts"]
+    showNowSection = true
     showLatestPosts = true
-    latestPostsLimit = 10
-    blogTitle = "Articles"
-    blogIntro = ""
+    latestPostsLimit = 5
+    blogTitle = "Mes articles"
+    blogIntro = "Découvrez mes réflexions sur le développement web, les nouvelles technologies et ma veille technologique"
+    techMarqueeLabel = "Technologies que j'utilise"
+    
+    # Technologies que j'utilise (défilent de gauche à droite)
+    [[params.home.tech]]
+      label = "Vue.js"
+      icon = "devicon-vuejs-plain"
+    
+    [[params.home.tech]]
+      label = "Node.js"
+      icon = "devicon-nodejs-plain"
+    
+    [[params.home.tech]]
+      label = "Docker"
+      icon = "devicon-docker-plain"
+    
+    [[params.home.tech]]
+      label = "Git"
+      icon = "devicon-git-plain"
+    
+    [[params.home.tech]]
+      label = "PostgreSQL"
+      icon = "devicon-postgresql-plain"
+    
+    # Technologies (défilent de droite à gauche)
+    [[params.home.techReverse]]
+      label = "HTML5"
+      icon = "devicon-html5-plain"
+    
+    [[params.home.techReverse]]
+      label = "CSS3"
+      icon = "devicon-css3-plain"
+    
+    [[params.home.techReverse]]
+      label = "JavaScript"
+      icon = "devicon-javascript-plain"
+    
+    [[params.home.techReverse]]
+      label = "GitHub"
+      icon = "devicon-github-original"
+    
+    [[params.home.techReverse]]
+      label = "VS Code"
+      icon = "devicon-vscode-plain"
+    
+    [[params.home.techReverse]]
+      label = "Figma"
+      icon = "devicon-figma-plain"
+    
+  # Hero Section Configuration
+  [params.hero]
+    badge = "Étudiant HEIG-VD"
+    title = "Jonas Du Bois"
+    role = "Développeur Backend & Frontend"
+    summary = "Qu'il s'agisse d'ingénierie des médias à l'HEIG-VD ou de stratégie politique à la FSPJ, mon moteur reste le même : créer du lien et de l'impact. Je ne me contente pas d'apprendre la théorie ; je l'applique sur le terrain, du plus petit projet au projet national."
+    location = "Yverdon-les-Bains, Suisse"
+    focus = "Actuellement concentré sur le développement web full-stack et l'automatisation."
+    available = true
+    availableLabel = "Ouvert aux opportunités"
+    
+    nowLabel = "En ce moment"
+    nowIntro = "Actuellement, je travaille sur :"
+    now = [
+      "C.A.R.L : Assistant IA personnel pour WhatsApp",
+      "Projets de développement web avec Vue.js et Node.js",
+      "Veille technologique sur les nouvelles tendances du web"
+    ]
+    
+    [params.hero.primary]
+      label = "Mes Articles"
+      href = "/blog/"
+    
+    [params.hero.secondary]
+      label = "À Propos"
+      href = "/about/"
+  
+  # Social Links - Apparaissent dans le hero et le footer
+  [[params.social]]
+    label = "GitHub"
+    url = "https://github.com/Jonas-du-bois"
+    icon = "fa-brands fa-github"
+  
+  [[params.social]]
+    label = "LinkedIn"
+    url = "https://www.linkedin.com/in/jonas-du-bois/"
+    icon = "fa-brands fa-linkedin-in"
+  
+  [[params.social]]
+    label = "Bento"
+    url = "https://bento.me/jonas-du-bois"
+    icon = "fa-solid fa-link"
+  
+  [[params.social]]
+    label = "Email"
+    url = "mailto:jonas.dubois@heig-vd.ch"
+    icon = "fa-regular fa-envelope"
+
+# Markdown Configuration
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+  
+  [markup.goldmark.renderer]
+    unsafe = true
+  
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    style = "monokai"
 

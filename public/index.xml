@@ -1,19 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LabVeilleTech-JonasDuBois</title>
+    <title>Jonas Du Bois</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on LabVeilleTech-JonasDuBois</description>
+    <description>Recent content on Jonas Du Bois</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 22 Jan 2026 16:08:36 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 17:00:00 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test article</title>
-      <link>//localhost:1313/blog/mon-premier-article/</link>
-      <pubDate>Thu, 22 Jan 2026 16:08:36 +0100</pubDate>
-      <guid>//localhost:1313/blog/mon-premier-article/</guid>
-      <description>&lt;p&gt;Ceci est mon premier article.&lt;/p&gt;</description>
+      <title>À Propos</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Thu, 22 Jan 2026 17:00:00 +0100</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    &#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Salut à toi nouvel arrivant ! Moi c&amp;rsquo;est Jonas. J&amp;rsquo;ai 25 ans et je suis actuellement étudiant en &lt;strong&gt;ingénierie des médias&lt;/strong&gt; à la HEIG-VD à Yverdon.&lt;/p&gt;&#xA;&lt;p&gt;Qu&amp;rsquo;il s&amp;rsquo;agisse d&amp;rsquo;ingénierie des médias à l&amp;rsquo;HEIG-VD ou de stratégie politique à la FSPJ, mon moteur reste le même : &lt;strong&gt;créer du lien et de l&amp;rsquo;impact&lt;/strong&gt;. Je ne me contente pas d&amp;rsquo;apprendre la théorie ; je l&amp;rsquo;applique sur le terrain, du plus petit projet au projet national.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Server Components React : révolution ou simple évolution ?</title>
+      <link>//localhost:1313/blog/react-server-components/</link>
+      <pubDate>Tue, 20 Jan 2026 16:00:00 +0100</pubDate>
+      <guid>//localhost:1313/blog/react-server-components/</guid>
+      <description>&lt;h2 id=&#34;une-technologie-qui-fait-débat&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#une-technologie-qui-fait-d%c3%a9bat&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    Une technologie qui fait débat&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;En suivant les actualités React et Next.js, j&amp;rsquo;ai été intrigué par l&amp;rsquo;émergence des &lt;strong&gt;React Server Components (RSC)&lt;/strong&gt;. Cette technologie, introduite par l&amp;rsquo;équipe React et popularisée par Next.js 13+, divise la communauté. Est-ce une révolution ou juste du marketing ?&lt;/p&gt;&#xA;&lt;h2 id=&#34;quest-ce-que-les-react-server-components-&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#quest-ce-que-les-react-server-components-&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    Qu&amp;rsquo;est-ce que les React Server Components ?&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;le-concept&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#le-concept&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    Le concept&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Les &lt;strong&gt;React Server Components&lt;/strong&gt; permettent d&amp;rsquo;exécuter des composants React &lt;strong&gt;exclusivement côté serveur&lt;/strong&gt;. Contrairement aux composants classiques qui sont hydratés côté client, les RSC ne sont jamais envoyés au navigateur.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GraphQL vs REST : Le débat qui divise les développeurs</title>
+      <link>//localhost:1313/blog/graphql-vs-rest/</link>
+      <pubDate>Mon, 19 Jan 2026 11:00:00 +0100</pubDate>
+      <guid>//localhost:1313/blog/graphql-vs-rest/</guid>
+      <description>&lt;h2 id=&#34;une-découverte-marquante-durant-ma-veille&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#une-d%c3%a9couverte-marquante-durant-ma-veille&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    Une découverte marquante durant ma veille&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;En parcourant les discussions sur Reddit et les articles de Dev.to, j&amp;rsquo;ai été frappé par l&amp;rsquo;intensité du débat entre &lt;strong&gt;GraphQL&lt;/strong&gt; et &lt;strong&gt;REST&lt;/strong&gt;. Ce sujet divise la communauté des développeurs backend, et pour cause : le choix entre ces deux approches a des implications majeures sur l&amp;rsquo;architecture et les performances des applications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;rest--le-vétéran-incontournable&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#rest--le-v%c3%a9t%c3%a9ran-incontournable&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    REST : Le vétéran incontournable&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;les-fondamentaux&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#les-fondamentaux&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    Les fondamentaux&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;REST (Representational State Transfer)&lt;/strong&gt; est l&amp;rsquo;approche standard pour concevoir des APIs depuis les années 2000. Basé sur HTTP, il utilise des URLs et des verbes (GET, POST, PUT, DELETE) pour manipuler des ressources.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WebAssembly : Le futur du développement web haute performance</title>
+      <link>//localhost:1313/blog/webassembly-futur-web/</link>
+      <pubDate>Sun, 18 Jan 2026 14:00:00 +0100</pubDate>
+      <guid>//localhost:1313/blog/webassembly-futur-web/</guid>
+      <description>&lt;h2 id=&#34;découverte-lors-de-ma-veille&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#d%c3%a9couverte-lors-de-ma-veille&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    Découverte lors de ma veille&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;En explorant les dernières tendances du développement web, j&amp;rsquo;ai découvert l&amp;rsquo;essor impressionnant de &lt;strong&gt;WebAssembly (WASM)&lt;/strong&gt;, une technologie qui promet de révolutionner les performances des applications web.&lt;/p&gt;&#xA;&lt;h2 id=&#34;quest-ce-que-webassembly-&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#quest-ce-que-webassembly-&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    Qu&amp;rsquo;est-ce que WebAssembly ?&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;WebAssembly&lt;/strong&gt; est un format binaire portable qui permet d&amp;rsquo;exécuter du code à des vitesses proches du natif dans les navigateurs web. Contrairement à JavaScript, WASM est un langage de bas niveau compilé, offrant des performances nettement supérieures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Survivre au déluge : Ma stratégie de veille minimaliste avec Obsidian</title>
+      <link>//localhost:1313/blog/ma-veille-technologique/</link>
+      <pubDate>Fri, 16 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>//localhost:1313/blog/ma-veille-technologique/</guid>
+      <description>&lt;p&gt;&lt;figure class=&#34;md-image&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;//localhost:1313/images/articles/obsidian-setup.jpg&#34; class=&#34;glightbox&#34;&gt;&#xD;&#xA;    &lt;img&#xD;&#xA;      src=&#34;//localhost:1313/images/articles/obsidian-setup.jpg&#34;&#xD;&#xA;      alt=&#34;Veille technologique&#34;&#xD;&#xA;      loading=&#34;lazy&#34;&#xD;&#xA;    /&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;  &#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;le-syndrome-de-lécureuil-numérique&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#le-syndrome-de-l%c3%a9cureuil-num%c3%a9rique&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    Le syndrome de l&amp;rsquo;écureuil numérique&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Nous vivons une époque formidable pour les développeurs Full Stack, si l&amp;rsquo;on aime avoir le tournis. Un nouveau framework JavaScript naît chaque matin, et une nouvelle méthode de gestion d&amp;rsquo;état est déclarée &amp;ldquo;obsolète&amp;rdquo; avant l&amp;rsquo;heure du déjeuner.&lt;/p&gt;&#xA;&lt;p&gt;Face à ce vacarme, ma première réaction a été celle de beaucoup : l&amp;rsquo;accumulation compulsive.&#xA;Pendant longtemps, ma &amp;ldquo;veille&amp;rdquo; consistait à scroller frénétiquement LinkedIn ou Twitter, à la recherche de la dose de dopamine provoquée par un titre accrocheur (&amp;quot;&lt;em&gt;10 astuces React que vous ignorez&lt;/em&gt;&amp;quot;). Je cliquais sur &amp;ldquo;Sauvegarder&amp;rdquo;, pensant apprendre. Je me trompais.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Moi et les LLM : Collaboration stratégique ou simple facilité ?</title>
+      <link>//localhost:1313/blog/moi-et-les-llm/</link>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>//localhost:1313/blog/moi-et-les-llm/</guid>
+      <description>&lt;p&gt;&lt;figure class=&#34;md-image&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;//localhost:1313/images/articles/llm.jpg&#34; class=&#34;glightbox&#34;&gt;&#xD;&#xA;    &lt;img&#xD;&#xA;      src=&#34;//localhost:1313/images/articles/llm.jpg&#34;&#xD;&#xA;      alt=&#34;Large Language Models&#34;&#xD;&#xA;      loading=&#34;lazy&#34;&#xD;&#xA;    /&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;  &#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;une-révolution-dans-mon-cursus-dingénieur&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;#une-r%c3%a9volution-dans-mon-cursus-ding%c3%a9nieur&#34; class=&#34;md-heading-anchor&#34;&gt;&#xD;&#xA;    Une révolution dans mon cursus d&amp;rsquo;ingénieur&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;En tant qu&amp;rsquo;étudiant en ingénierie des médias, naviguant entre les eaux troubles du backend et les exigences du frontend, j&amp;rsquo;ai vu les &lt;strong&gt;Large Language Models (LLM)&lt;/strong&gt; s&amp;rsquo;imposer non pas comme une option, mais comme une évidence.&#xA;Il est facile de crier au loup ou au miracle, mais la réalité est plus pragmatique : ces outils ont redéfini mon workflow. J&amp;rsquo;ai rapidement compris que pour rester pertinent professionnellement, il ne s&amp;rsquo;agissait pas de les subir, mais de les maîtriser.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -9,21 +9,20 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>404 Page not found | LabVeilleTech-JonasDuBois</title>
+<title>404 Page not found | Jonas Du Bois</title>
 
-<meta name="description" content="Site pour le cours de LabVeilleTech" />
+<meta name="description" content="Qu&#39;il s&#39;agisse d&#39;ingénierie des médias à l&#39;HEIG-VD ou de stratégie politique à la FSPJ, mon moteur reste le même : créer du lien et de l&#39;impact." />
 <meta name="author" content="Jonas Du Bois" />
 
 
 
 
-  
-  
-  
-  
+  <link rel="icon" type="image/x-icon" href="//localhost:1313/icons/favicon.svg" />
 
 
 
+
+  <link rel="apple-touch-icon" href="//localhost:1313/404" />
 
 
 
@@ -44,7 +43,17 @@
 <link rel="stylesheet" href="//localhost:1313/css/main.css"> 
 
 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  >
 
+
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/devicon.min.css"
+  >
 
 
 
@@ -106,17 +115,31 @@
         <a href="//localhost:1313/" class="flex items-center gap-2">
           
             <div class="logo-badge">
-              LA
+              JO
             </div>
           
           <span class="text-xs font-semibold tracking-wide">
-            LabVeilleTech
+            Jonas Du Bois
           </span>
         </a>
 
         <div class="flex items-center gap-2">
           
           <nav class="hidden items-center gap-5 md:flex">
+              <a
+                href="//localhost:1313/about/"
+                class="nav-link link-underline flex items-center gap-1 "
+              >
+                
+                <span>À Propos</span>
+              </a>
+              <a
+                href="//localhost:1313/blog/"
+                class="nav-link link-underline flex items-center gap-1 "
+              >
+                
+                <span>Blog</span>
+              </a>
           </nav>
 
           
@@ -190,6 +213,16 @@
       data-mobile-nav
     >
       
+        <a href="//localhost:1313/about/" class="flex items-center gap-2 py-1.5">
+          
+          <span>À Propos</span>
+        </a>
+      
+        <a href="//localhost:1313/blog/" class="flex items-center gap-2 py-1.5">
+          
+          <span>Blog</span>
+        </a>
+      
     </nav>
   </div>
 </header>
@@ -247,6 +280,14 @@
             
 
             
+              <a href="//localhost:1313/about/" class="error-link-card">
+                <i class="fa-regular fa-user"></i>
+                <div>
+                  <strong>About</strong>
+                  <span>Learn more about me</span>
+                </div>
+              </a>
+            
           </div>
         </div>
 
@@ -259,14 +300,42 @@
             <ul class="error-recent-list">
               
                 <li>
-                  <a href="//localhost:1313/blog/mon-premier-article/" class="error-recent-link">
+                  <a href="//localhost:1313/blog/react-server-components/" class="error-recent-link">
                     <span class="error-recent-icon">
                       
                         <i class="fa-regular fa-note-sticky"></i>
                       
                     </span>
                     <span class="error-recent-text">
-                      <strong>test article</strong>
+                      <strong>Server Components React : révolution ou simple évolution ?</strong>
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="//localhost:1313/blog/graphql-vs-rest/" class="error-recent-link">
+                    <span class="error-recent-icon">
+                      
+                        <i class="fa-regular fa-note-sticky"></i>
+                      
+                    </span>
+                    <span class="error-recent-text">
+                      <strong>GraphQL vs REST : Le débat qui divise les développeurs</strong>
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="//localhost:1313/blog/webassembly-futur-web/" class="error-recent-link">
+                    <span class="error-recent-icon">
+                      
+                        <i class="fa-regular fa-note-sticky"></i>
+                      
+                    </span>
+                    <span class="error-recent-text">
+                      <strong>WebAssembly : Le futur du développement web haute performance</strong>
                       
                     </span>
                   </a>
@@ -491,7 +560,7 @@
         
         <div class="space-y-1">
           <p class="footer-small">
-            &copy; 2026 LabVeilleTech-JonasDuBois — All rights
+            &copy; 2026 Jonas Du Bois — All rights
             reserved.
           </p>
 
@@ -521,6 +590,50 @@
         </div>
 
         
+        
+        <div class="footer-links">
+          
+          <a
+            href="https://github.com/Jonas-du-bois"
+            class="footer-link footer-float link-underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github text-[0.8rem]"></i>
+            <span>GitHub</span>
+          </a>
+          
+          <a
+            href="https://www.linkedin.com/in/jonas-du-bois/"
+            class="footer-link footer-float link-underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-linkedin-in text-[0.8rem]"></i>
+            <span>LinkedIn</span>
+          </a>
+          
+          <a
+            href="https://bento.me/jonas-du-bois"
+            class="footer-link footer-float link-underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-solid fa-link text-[0.8rem]"></i>
+            <span>Bento</span>
+          </a>
+          
+          <a
+            href="mailto:jonas.dubois@heig-vd.ch"
+            class="footer-link footer-float link-underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-regular fa-envelope text-[0.8rem]"></i>
+            <span>Email</span>
+          </a>
+          
+        </div>
         
       </div>
     </div>
