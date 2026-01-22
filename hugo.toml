@@ -1,9 +1,33 @@
-baseURL = 'https://github.com/Jonas-du-bois/LabVeilleTech-hugo'
+baseURL = '/'
 languageCode = 'fr-fr'
 title = 'LabVeilleTech-JonasDuBois'
 theme = 'hugo-minimal-black'
 
+# Enable search index generation and web app manifest
+[outputs]
+  home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
+  baseName = "manifest"
+  isPlainText = true
+  notAlternative = true
+
 [params]
-    author = "Jonas Du Bois"
-    description = "SIte pour le cours de LabVeilleTech"
+  brand = "LabVeilleTech"
+  author = "Jonas Du Bois"
+  description = "Site pour le cours de LabVeilleTech"
+  
+  # Theme Configuration
+  [params.theme]
+    defaultTheme = "dark"
+  
+  # Home Page Configuration  
+  [params.home]
+    sections = ["hero", "posts"]
+    showLatestPosts = true
+    latestPostsLimit = 10
+    blogTitle = "Articles"
+    blogIntro = ""
 
