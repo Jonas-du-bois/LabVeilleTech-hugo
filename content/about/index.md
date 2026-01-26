@@ -14,12 +14,11 @@ La diversité de ces études me permet de combiner la technique, la créativité
 
 ## Ma fiche Domaine
 
-![Ma fiche Domaine](/images/Fiche_Domaine.png)
+![Ma fiche Domaine](/images/about/fiche-domaine.jpeg)
 
 ## Mon IKIGAI
 
-![Mon IKIGAI](/images/Mon_IKIGAI.png)
-
+![Mon IKIGAI](/images/about/ikigai.png)
 ## Ma Citation Préférée
 
 > "Le talent fait gagner les matches, mais le travail d'équipe et l'intelligence font gagner des tournois."  
